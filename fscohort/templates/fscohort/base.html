@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 {% load static %}
-​
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-​
+
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
       integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
       crossorigin="anonymous"
     />
-​
+
     {% comment %}
     <link rel="stylesheet" href=" {% static 'fscohort/css/bootstrap.min.css' %}" />
     {% endcomment %}
-​
+
     <link rel="stylesheet" href=" {% static 'fscohort/css/style.css' %}  " />
-​
+
     <title>Document</title>
   </head>
-​
+
   <body>
     {% comment %} {% include "users/navbar.html" %} {% endcomment %}
     <div style="margin-top: 100px; margin-bottom: 100px" class="container">
 
-      <h1>CLarusway</h1>
+      <h1>Clarusway</h1>
       <hr>
-​
       {% block container %}
+
       {% endblock container %}
+
+      
     </div>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
